@@ -16,7 +16,7 @@ Descrição do contexto do projeto numa perspetiva de produto, i.e. sem descriç
 Explicar o que é o projeto/produto \
 Descrever o contexto em que o projeto está inserido:
 - Referências a sites ou documentos que deem mais informação sobre o contexto
-- Referências a outros produtos similares
+- http://www.ciclovia.pt/index.html
 - Ambas os tipos de referências deve ser introduzidas nesta secção indicando um número que corresponde a uma entrada na secção de “Referências”
 Explicar porque o projeto é importante nesse contexto
 
