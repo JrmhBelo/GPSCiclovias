@@ -16,6 +16,7 @@ as cadeiras de Bases de Dados, Programação Orientada por Objetos e Competênci
 da Licenciatura de Informática de Gestão.\
 O nosso produto consiste numa aplicação que tem como objetivo facilitar a deslocação das pessoas nas ciclovias da cidade\
 de Lisboa. Para isso fornece ao utilizador alternativas de caminhos até ao seu destino.\
+
 Descrever o contexto em que o projeto está inserido:
 - https://shifter.sapo.pt/2020/05/ciclovias-pt-mapa/
 - http://www.ciclovia.pt/index.html
