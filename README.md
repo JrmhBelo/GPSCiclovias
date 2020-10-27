@@ -11,8 +11,8 @@
 |  20190812  | João Pedro André |
 
 ## Enquadramento
-Este projeto será desenvolvido ao longo deste semestre no ambito de uma iniciativa de Project Base Learning que interliga as cadeiras de Bases de Dados, Programação\
-Orientada por Objetos e Competências Comunicacionais do segundo ano de curso de Informática de Gestão.\
+Este projeto será desenvolvido ao longo deste semestre no ambito de uma iniciativa de Project Base Learning que interliga as cadeiras de\
+Bases de Dados, Programação Orientada por Objetos e Competências Comunicacionais do segundo ano da Licenciatura de Informática de Gestão.\
 Explicar o que é o projeto/produto \
 Descrever o contexto em que o projeto está inserido:
 - Referências a sites ou documentos que deem mais informação sobre o contexto
