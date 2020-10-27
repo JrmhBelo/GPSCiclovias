@@ -8,7 +8,7 @@
 |--------|------|
 |  20190796  | Tomás Bourdain da Gama |
 |  20190848  | João Ricardo Belo |
-|  num3  | nome3 |
+|  20190812  | João Pedro André |
 
 ## Enquadramento
 (substituir todo o texto pelo vosso) \
