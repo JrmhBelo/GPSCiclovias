@@ -13,12 +13,13 @@
 ## Enquadramento
 Este projeto será desenvolvido ao longo deste semestre no ambito de uma iniciativa de Project Base Learning que interliga\
 as cadeiras de Bases de Dados, Programação Orientada por Objetos e Competências Comunicacionais do segundo ano\
-da Licenciatura de Informática de Gestão. \
+da Licenciatura de Informática de Gestão.\
+O nosso produto consiste numa aplicação que tem como objetivo facilitar a deslocação das pessoas nas ciclovias da cidade\
+de Lisboa. Para isso fornece ao utilizador alternativas de caminhos até ao seu destino.\
 Descrever o contexto em que o projeto está inserido:
-- Referências a sites ou documentos que deem mais informação sobre o contexto
+- https://shifter.sapo.pt/2020/05/ciclovias-pt-mapa/
 - http://www.ciclovia.pt/index.html
-- Ambas os tipos de referências deve ser introduzidas nesta secção indicando um número que corresponde a uma entrada na secção de “Referências”
-Explicar porque o projeto é importante nesse contexto
+- https://lisbonbikemap.com/pt/mapa/ciclovias/
 
 ## Casos de utilização:
 (substituir todo o texto pelo vosso) \
