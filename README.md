@@ -54,11 +54,11 @@ O utilizador permite o uso da localização, de modo a planear o seu itinerário
 **Pré-condições:**
 - O utilizador autenticou-se no sistema.
 
-**Passo a passo:**
+**Passo a passo:**\
 1.Apresenta um pedido de acesso à localização.
-1.A localização pretendida é inserida.
+2.A localização pretendida é inserida.
 
-**Pós-condições:**
+**Pós-condições:**\
 -A localização é fornecida ao sistema.
 
 ### Partilhar percurso efetuado
