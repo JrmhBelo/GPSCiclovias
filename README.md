@@ -43,28 +43,22 @@ Texto descritivo
 - Indica as alterações que decorreram das ações (ex: o pedido é guardado)
 - Podem escrever NA se não existirem pós-condições.
 
-## Casos de utilização:
-(substituir todo o texto pelo vosso) \
-Definir 3 casos de utilização (o primeiro deve ser core) cada um com o template mostrado em baixo. \
-Cada caso de uso tem um nome, uma descrição, pré-condições (pode-se omitir se vazio), passsos e pós-condições (pode-se omitir se vazio)
 
-### nome do caso de uso
+### Autorizar o acesso à localização
 **Descrição:** \
-Texto descritivo
+O utilizador permite o uso da localização, de modo a planear o seu itinerário.
 
 **Pré-condições:**
-- O caso de utilização pode ter pré-condições (ex: estar logado, o pedido não estar pago, etc). 
-- Podem escrever NA se não existirem pré-condições 
+- O utilizador autenticou-se no sistema.
 
 **Passo a passo:**
-1. Um caso de utilização consiste na descrição passo a passo (itemizado) de como um utilizador consegue fazer algo na aplicação. Indicando as ações relevantes e a informação relevante que é mostrada ao utilizador.
-1. O passo a passo pode começar num dos passos de um caso de utilização anterior (ex: no passo 3 do caso de utilização Y …) 
+1.Apresenta um pedido de acesso à localização.
+1.A localização pretendida é inserida.
 
 **Pós-condições:**
-- Indica as alterações que decorreram das ações (ex: o pedido é guardado)
-- Podem escrever NA se não existirem pós-condições.
+-A localização é fornecida ao sistema.
 
-### nome do caso de uso
+### Partilhar percurso efetuado
 **Descrição:** \
 Texto descritivo
 
