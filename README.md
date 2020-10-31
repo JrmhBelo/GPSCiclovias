@@ -52,7 +52,7 @@ O utilizador permite o uso da localização, de modo a planear o seu itinerário
 - O utilizador autenticou-se no sistema.
 
 **Passo a passo:**
-1.Apresenta um pedido de acesso à localização.
+1.Apresenta um pedido de acesso à localização.  \
 1.A localização pretendida é inserida.
 
 **Pós-condições:**
