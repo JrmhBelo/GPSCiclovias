@@ -61,21 +61,19 @@ caminho até à mesma.
 **Pós-condições:**
 - A localização é fornecida ao sistema.
 
-### Partilhar percurso efetuado
+### Disponibilizar Mapa de Ciclovias
 **Descrição:** \
-Texto descritivo
+A aplicação disponibiliza ao utilizador um mapa com os diferentes tipos de ciclovias na área de Lisboa.
 
 **Pré-condições:**
-- O caso de utilização pode ter pré-condições (ex: estar logado, o pedido não estar pago, etc). 
-- Podem escrever NA se não existirem pré-condições 
+- O utilizador autenticou-se no sistema. 
 
 **Passo a passo:**
-1. Um caso de utilização consiste na descrição passo a passo (itemizado) de como um utilizador consegue fazer algo na aplicação. Indicando as ações relevantes e a informação relevante que é mostrada ao utilizador.
-1. O passo a passo pode começar num dos passos de um caso de utilização anterior (ex: no passo 3 do caso de utilização Y …) 
+1. Disponibilizado um mapa dos diferentes tipos de ciclovias.
+1. O utilizador consulta o mapa.
 
 **Pós-condições:**
-- Indica as alterações que decorreram das ações (ex: o pedido é guardado)
-- Podem escrever NA se não existirem pós-condições.
+- NA
 
 
 ## Referências:
