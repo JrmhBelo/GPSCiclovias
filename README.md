@@ -32,17 +32,17 @@ Cada caso de uso tem um nome, uma descrição, pré-condições (pode-se omitir 
  Através deste Caso de Uso, o utilizador da nossa aplicação pode inserir o seu destino. Recebendo depois a indicação do melhor\
 caminho até à mesma.
 
-**Pré-condições:**\
+**Pré-condições:**
 - Já se ter autenticado no sistema 
 - Ter inserido a sua localização
 - Ter disponibilizado a sua localização   
 
-**Passo a passo:**\
+**Passo a passo:**
 1. O utilizador indica a sua localização ou disponibiliza a mesma.
 2. O utilizador indica o seu destino.
 3. A aplicação mostra ao utilizador o melhor caminho até ao seu destino.
 
-**Pós-condições:**\
+**Pós-condições:**
 - O caminho é definido pela aplicação 
 - A aplicação indica quanto tempo demorará aproximadamente a viagem
 
@@ -51,14 +51,14 @@ caminho até à mesma.
 **Descrição:** \
  O utilizador permite o uso da localização, de modo a planear o seu itinerário.
 
-**Pré-condições:**\
+**Pré-condições:**
 - O utilizador autenticou-se no sistema.
 
-**Passo a passo:**\
+**Passo a passo:**
 1. Apresenta um pedido de acesso à localização.
 2. A localização pretendida é inserida.
 
-**Pós-condições:**\
+**Pós-condições:**
 - A localização é fornecida ao sistema.
 
 ### Partilhar percurso efetuado
