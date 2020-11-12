@@ -11,11 +11,11 @@
 |  20190812  | João Pedro André |
 
 ## Enquadramento
-Este projeto será desenvolvido ao longo deste semestre no ambito de uma iniciativa de Project Base Learning que interliga\
-as cadeiras de Bases de Dados, Programação Orientada por Objetos e Competências Comunicacionais do segundo ano\
-da Licenciatura de Informática de Gestão.\
-O nosso produto consiste numa aplicação que tem como objetivo facilitar a deslocação das pessoas nas ciclovias da cidade\
-de Lisboa. Para isso fornece ao utilizador alternativas de caminhos até ao seu destino.\
+  O Nosso Projeto GPSCiclovias tem como objetivo reduzir as emissões de CO2 de acordo com os Objetivos Sustentáveis da ONU. Dentro dos 17 objetivos de desenvolvimento sustentável, o nosso projeto está mais diretamente relacionado com os objetivos 11, das cidades e comunidades sustentáveis, 13, o combate ás alterações climáticas ,e 15, na proteção da vida terrestre. A nossa aplicação ao facilitar a deslocação através de meios não poluentes, incentiva ao uso dos mesmos, o que ao reduzir tráfico irá gradualamente diminuir as emissões de CO2 por parte da nossa comunidade. Sendo Lisboa a Capital Verde Europeia de 2020, tentamos através desta aplicação fazer o nosso papel para a aproximação de Lisboa a uma cidade mais verde e sustentável com uma menor emissão de gases poluentes. Melhorando assim a qualidade de vida da população e tornando-a mais atrativa para turistas, sendo que estes são uma peça fundamental no desenvolvimento do país.\
+  Cada vez mais estão a aparecer mais ciclovias em Lisboa, sendo este um dos grandes investimentos por parte da Câmara Municipal, com o objetivo de reduzir a quantidade de carros em circulação na cidade. De acordo com a ONU a bicicleta é o veículo mais rápido e prático para percursos de até 6 quilómetros de distância. Isto tem levado a um aumento de utilizadores de ciclovias na cidade de Lisboa. No entanto sendo a maioria das ciclovias na cidade relativamente recentes existe alguma desinformação e desconhecimento dos seus percursos. Sendo este um dos problemas que identificámos, decidimos combatê-lo através do GPSCiclovias.\
+  O GPSCiclovias é numa aplicação que tem como objetivo facilitar a deslocação das pessoas nas ciclovias da cidade de Lisboa. Para isso fornece ao utilizador alternativas de caminhos até ao seu destino.\
+Este projeto será desenvolvido ao longo deste semestre no ambito de uma iniciativa de Project Base Learning que interliga as cadeiras de Bases de Dados, Programação Orientada por Objetos e Competências Comunicacionais do segundo ano da Licenciatura de Informática de Gestão.\
+
 
 Descrever o contexto em que o projeto está inserido:
 - https://shifter.sapo.pt/2020/05/ciclovias-pt-mapa/
