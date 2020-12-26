@@ -26,6 +26,19 @@
 
 ## Casos de utilização: 
 
+### Consultar Lista de Ciclovias
+**Descrição:** \
+Esta opção permite ao utilizador consultar a lista onde estão inseridas as ciclovias.\
+**Pré-condições:**
+- Autenticado no sistema 
+
+**Passo a passo:**
+1. O utilizador encontra-se no menu inicial.
+2. O utilizador escolhe a opção Consultar Lista de Ciclovias
+
+**Pós-condições:**
+- É disponibilizada uma lista onde estão contidas todas as ciclovias
+
 
 ### Escolher Ciclovia
 **Descrição:** \
@@ -61,19 +74,7 @@
 **Pós-condições:**
 - As ciclovias são apresentadas, com base nos Pontos de Interesse selecionados 
 
-### Disponibilizar Mapa de Ciclovias
-**Descrição:** \
-A aplicação disponibiliza ao utilizador um mapa com os diferentes tipos de ciclovias na área de Lisboa.
 
-**Pré-condições:**
-- O utilizador autenticou-se no sistema. 
-
-**Passo a passo:**
-1. Disponibilizado um mapa dos diferentes tipos de ciclovias.
-1. O utilizador consulta o mapa.
-
-**Pós-condições:**
-- NA
 
 
 ## Referências:
