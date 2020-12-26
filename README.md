@@ -36,8 +36,8 @@
 - Consultado a Lista de Ciclovias   
 
 **Passo a passo:**
-1. O utilizador seleciona o menu Consultar Lista de Ciclovias
-2. O utilizador após selecionar o menu , é apresentada uma Lista de Ciclovias
+1. O utilizador seleciona a opção Consultar Lista de Ciclovias
+2. O utilizador após selecionar a opção, é apresentada uma Lista de Ciclovias
 3. O utilizador escolhe uma ciclovia para conhecer os seus detalhes 
 4. O utilizador indica a ciclovia pretendida
 
@@ -45,19 +45,21 @@
 - A ciclovia escolhida é apresentada pela aplicação
 
 
-### Autorizar o acesso à localização
+### Pesquisar Pontos de Interesse
 **Descrição:** \
- O utilizador permite o uso da localização, de modo a planear o seu itinerário.
+ O utilizador, através da opção Pesquisar Pontos de Interesse, consegue selecionar os pontos que considera pertinentes visitar durante o trajeto na ciclovia
 
 **Pré-condições:**
-- O utilizador autenticou-se no sistema.
+- Autenticado no sistema
+- Pesquisado Pontos de Interesse
 
 **Passo a passo:**
-1. Apresenta um pedido de acesso à localização.
-2. A localização pretendida é inserida.
+1. O utilizador seleciona a opção Pesquisar Pontos de Interesse
+2. O utilizador após selecionar a opção, é apresentada uma Lista de Pontos de Interesse
+3. O utilizador escolhe Pontos de Interesse para coincidir com o trajeto da ciclovia 
 
 **Pós-condições:**
-- A localização é fornecida ao sistema.
+- As ciclovias são apresentadas, com base nos Pontos de Interesse selecionados 
 
 ### Disponibilizar Mapa de Ciclovias
 **Descrição:** \
