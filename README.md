@@ -28,7 +28,7 @@
 
 ### Consultar Lista de Ciclovias
 **Descrição:** 
-Esta opção permite ao utilizador consultar a lista onde estão inseridas as ciclovias.\
+Esta opção permite ao utilizador consultar a lista onde estão inseridas as ciclovias.
 **Pré-condições:**
 - Autenticado no sistema 
 
