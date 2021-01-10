@@ -78,7 +78,6 @@ Esta opção permite ao utilizador consultar a lista onde estão inseridas as ci
 
 
 ## Referências:
-(substituir todo o texto pelo vosso) \
-Usar a norma APA. Para o caso de sites podem usar: \
-[1] Autor, A.A. (2000). Título do documento. Acedido em: dia, mês, ano, em: URL. \
-(Ano/autor podem ser removidos se não fizerem sentido para o site, o resto é obrigatório)
+1 - “Ciclovias Portugal” ciclovia.pt.[Online].Available: http://www.ciclovia.pt/index.html.[Accessed:28-12-2020][Accessed:30-12-2020]
+2 - PowerPoints disponibilizados na Unidade Curricular de Programação Orientada por Objetos
+
