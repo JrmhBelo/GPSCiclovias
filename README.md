@@ -78,5 +78,9 @@ Esta opção permite ao utilizador consultar a lista onde estão inseridas as ci
 
 ## Referências:
 1 - “Ciclovias Portugal” ciclovia.pt.[Online].Available: http://www.ciclovia.pt/index.html.[Accessed:28-12-2020][Accessed:30-12-2020] \
-2 - PowerPoints disponibilizados na Unidade Curricular de Programação Orientada por Objetos
+2 - “Tipos de Dados no SQL”rlsystem.com.[Online].Available: https://www.rlsystem.com.br/tipos-dados-sql-server/.[Accessed:10-11-2020] \
+3 - “SQL Tutorial”w3schools.com[Online].Available: https://www.w3schools.com/sql/default.asp.[Accessed:10-11-2020] \
+4 - “O que é um diagrama entidade relacional?”lucidchart.com.[Online].Available: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-entidade-relacionamento.[Accessed:15-11-2020] \
+5 - “Ciclovias Portugal” ciclovia.pt.[Online].Available: http://www.ciclovia.pt/index.html.[Accessed:28-12-2020][Accessed:30-12-2020] \
+6 - PowerPoints disponibilizados na Unidade Curricular de Programação Orientada por Objetos
 
