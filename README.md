@@ -41,8 +41,8 @@ Esta opção permite ao utilizador consultar a lista onde estão inseridas as ci
 
 
 ### Escolher Ciclovia
-**Descrição:** \
- Após consultar a Lista de Ciclovias, o utilizador da nossa aplicação consegue escolher uma, de modo a conhecer os seus detalhes (trajeto, extensão, relevo, descrição, pontos de interesse). \
+**Descrição:** 
+ Após consultar a Lista de Ciclovias, o utilizador da nossa aplicação consegue escolher uma, de modo a conhecer os seus detalhes (trajeto, extensão, relevo, descrição, pontos de interesse). 
 
 **Pré-condições:**
 - Autenticado no sistema 
