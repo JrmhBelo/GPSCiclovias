@@ -27,8 +27,8 @@
 ## Casos de utilização: 
 
 ### Consultar Lista de Ciclovias
-**Descrição:** \
-Esta opção permite ao utilizador consultar a lista onde estão inseridas as ciclovias.
+**Descrição:** 
+Esta opção permite ao utilizador consultar a lista onde estão inseridas as ciclovias. \
 **Pré-condições:**
 - Autenticado no sistema 
 
