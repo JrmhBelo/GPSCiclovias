@@ -78,6 +78,6 @@ Esta opção permite ao utilizador consultar a lista onde estão inseridas as ci
 
 
 ## Referências:
-1 - “Ciclovias Portugal” ciclovia.pt.[Online].Available: http://www.ciclovia.pt/index.html.[Accessed:28-12-2020][Accessed:30-12-2020]
+1 - “Ciclovias Portugal” ciclovia.pt.[Online].Available: http://www.ciclovia.pt/index.html.[Accessed:28-12-2020][Accessed:30-12-2020] \
 2 - PowerPoints disponibilizados na Unidade Curricular de Programação Orientada por Objetos
 
