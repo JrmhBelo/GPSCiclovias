@@ -59,20 +59,19 @@ Esta opção permite ao utilizador consultar a lista onde estão inseridas as ci
 
 ### Pesquisar Pontos de Interesse
 **Descrição:** \
- O utilizador, através da opção Pesquisar Pontos de Interesse, consegue selecionar os pontos que considera pertinentes visitar durante o trajeto na ciclovia
+O utilizador, através da opção Pesquisar Pontos de Interesse, consegue pesquiar na lista de pontos de interesse o que considera pertinente visitar durante o trajeto na ciclovia. Quando seleciona o ponto de interesse é lhe apresentado todas as ciclovias à menor distância desse ponto.
 
 **Pré-condições:**
 - Autenticado no sistema
-- Consultado a Lista de Ciclovias
 
 **Passo a passo:**
 1. O utilizador seleciona a opção Pesquisar Pontos de Interesse
 2. O utilizador após selecionar a opção, é apresentada uma Lista de Pontos de Interesse
-3. O utilizador escolhe Pontos de Interesse para coincidir com o trajeto da ciclovia 
+3. O utilizador escolhe um ponto de interesse 
+4. É apresentado ao utilizador todas as ciclocias que coincidem com esse ponto 
 
 **Pós-condições:**
-- As ciclovias são apresentadas, com base nos Pontos de Interesse selecionados 
-
+- É apresentada uma ciclovias são apresentadas, com base no pontos de interesse selecionado 
 
 
 
