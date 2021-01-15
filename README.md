@@ -10,6 +10,9 @@
 |  20190848  | João Ricardo Belo |
 |  20190812  | João Pedro André |
 
+Documentação REST disponível neste link:
+https://docs.google.com/document/d/1UxPuBFXYXmgtk2fjNHi-jz9vmhUTPk2k8fgwjr9EnLw/edit?usp=sharing
+
 ## Enquadramento
   Cada vez estão a ser construídas mais ciclovias em Lisboa, sendo este um dos grandes investimentos da Câmara Municipal. O objetivo desta medida é reduzir a quantidade de carros em circulação na cidade. De acordo com a ONU, a bicicleta é o veículo mais rápido e prático para percursos de até 6 quilómetros de distância. O uso da bicicleta também contribui para reduzir as emissões de CO2, para além de favorecer o exercício físico e, logo, a saúde. Pensando nos Objetivos Sustentáveis da ONU, o uso da bicicleta nas cidades contribui para ter cidades e comunidades mais sustentáveis (objetivo 11), para o combate às alterações climáticas (objetivo 13) e indiretamente para a proteção da vida terrestre (objetivo 15).\
   O crescimento das ciclovias tem levado a um aumento dos seus utilizadores na cidade de Lisboa. No entanto, sendo a maioria das ciclovias na cidade relativamente recente, existe algum desconhecimento relativamente aos possíveis percursos. Tendo identificado esta falta de informação como problema, decidimos combatê-la através do projeto GPSCiclovias.
