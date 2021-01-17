@@ -60,9 +60,9 @@ Esta opção permite ao utilizador consultar a lista onde estão inseridas as ci
 - A ciclovia escolhida é apresentada pela aplicação
 
 
-### Pesquisar Ciclovias através de extensão
+### Pesquisar Ciclovias 
 **Descrição:** \
-O utilizar com a opção "Pesquisar Ciclovias através de extensão", consegue escrever um intervalo de distâncias (em metros) que pretende percorrer numa determinada ciclovia. Quando introduz um valor mínimo e um valor máximo são apresentadas todas as ciclovias que coincidem com o intervalo.
+O utilizar com a opção "Pesquisar Ciclovias", consegue fazer a filtragem  da sua pesquisa através da extensão, do distrito e da cidade. Na extensão, pode escrever um intervalo de distâncias (em metros) que pretende percorrer numa determinada ciclovia, depois de introduz um valor mínimo e um valor máximo são apresentadas todas as ciclovias que coincidem com o intervalo. No distrito e na cidade apenas é preciso escrever o que deseja e são lhe apresentado todas as ciclovias pertencentes a esses locais.
 
 **Pré-condições:**
 - Autenticado no sistema
@@ -71,47 +71,13 @@ O utilizar com a opção "Pesquisar Ciclovias através de extensão", consegue e
 **Passo a passo:**
 1. O utilizador encontra-se no menu inicial.
 2. O utilizador seleciona o menu "Consultar Lista de Ciclovias"
-3. O utilizador seleciona a opção "Pesquisar Ciclovias através de extensão"
-4. O utilizador introduz um valor mínimo e um valor máximo
+3. O utilizador seleciona a opção "Pesquisar Ciclovias"
+4. O utilizador seleciona entre as opções, extensão, distrito e cidade
+5. O utilizador escreve o que pretende procurar
 
 **Pós-condições:**
-- Apresenta ao utilizador todas as ciclovias que coincidem com esses valores
+- Apresenta ao utilizador todas as ciclovias que coincidem com a filtragem que fez
 
-
-### Pesquisar Ciclovias através de distrito
-**Descrição:** \
-O utilizar com a opção "Pesquisar Ciclovias através de distrito", consegue escrever o distrito onde deseja encontrar ciclovias. Quando o introduz, todas as ciclovias pertencentes a esse distrito são apresentadas.
-
-**Pré-condições:**
-- Autenticado no sistema
-- Consultado Lista de Ciclovias
-
-**Passo a passo:**
-1. O utilizador encontra-se no menu inicial
-2. O utilizador seleciona o menu "Consultar Lista de Ciclovias"
-3. O utilizador seleciona a opção "Pesquisar Ciclovias através de distrito"
-4. O utilizador introduz um distrito 
-
-**Pós-condições:**
-- Apresenta ao utilizador todas as ciclovias desse distrito
-
-
-### Pesquisar Ciclovias através de cidade
-**Descrição:** \
-O utilizar com a opção "Pesquisar Ciclovias através de cidade", consegue escrever a cidade onde deseja encontrar ciclovias. Quando o introduz, todas as ciclovias pertencentes a esse cidade são apresentadas.
-
-**Pré-condições:**
-- Autenticado no sistema
-- Consultado Lista de Ciclovias
-
-**Passo a passo:**
-1. O utilizador encontra-se no menu inicial.
-2. O utilizador seleciona o menu "Consultar Lista de Ciclovias"
-3. O utilizador seleciona a opção "Pesquisar Ciclovias através de cidade"
-4. O utilizador introduz um cidade 
-
-**Pós-condições:**
-- Apresenta ao utilizador todas as ciclovias desse cidade
 
 ### Pesquisar Pontos de Interesse
 **Descrição:** \
