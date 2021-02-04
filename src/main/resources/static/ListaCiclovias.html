@@ -1,0 +1,26 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>GPSCiclovias</title>
+        <link rel="stylesheet" href="stylesheets/listaCiclovias.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="javascripts/listaCiclovias.js"></script>
+    </head>
+    <body>
+        <header>
+            <section>
+            <h1> Lista de Ciclovias </h1>
+            <h3> Ciclovias </h3>
+            Distrito : <input type="text" id="distrito">
+            Cidade: <input type="text" id="cidade">
+            <input type="button" value="Filtrar" onclick="filtrar()">
+            Extensão Minima : <input type="text" id="min">
+            Extensão Máxima: <input type="text" id="max">
+            <input type="button" value="Filtrar" onclick="filtrarExtensao()">
+            </section>
+            </header>
+        <main id="ciclovias">  
+        </main>
+        </body>
+</html>

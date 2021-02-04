@@ -1,0 +1,34 @@
+body > * {
+    padding: 10px;
+   }
+   body {
+    display: grid;
+    grid-template-areas: "h h" "n m";
+    grid-template-columns: 30% auto;
+   }
+   body > header {
+    grid-area: h;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    align-items: center;
+   }
+   body > header > img {
+    height: 200px;
+   }
+   body > header > h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+   }
+   nav {
+    grid-area: n;
+    background-color: lightseagreen;
+    color: darkblue;
+    display:flex;
+    flex-direction: column;
+   }
+   main {
+    grid-area: m;
+    color: darkblue;
+   }

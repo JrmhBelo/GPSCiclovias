@@ -4,16 +4,13 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-//import javax.persistence.OneToMany;
 import javax.persistence.Column;
 import javax.persistence.Table;
 
 import java.time.LocalDate;
-//import java.util.ArrayList;
-//import java.util.List;
 
 @Entity
-@Table(name = "utilizador")
+@Table(name = "utilizador")     //Ciclovias percorridas , km totais percorridos , veiculos utilizados 
 public class Utilizador {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -29,8 +26,7 @@ public class Utilizador {
     private LocalDate dnasc;
     @Column(name = "uti_idade")         
     private int idade; 
-    /*@OneToMany(mappedBy="contactos")
-    private List<UtilizadorContactos> contactos = new ArrayList<>();*/
+
 
     public Utilizador(){
     }
@@ -52,7 +48,4 @@ public class Utilizador {
     public int getIdade(){
         return idade;
     }
-    /*public List<UtilizadorContactos> getContactos() {
-        return contactos;
-    }*/
 }

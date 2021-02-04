@@ -44,7 +44,7 @@ public class CicloviaController {
         logger.info("Sending Ciclovias with cidade " + cidade);
             return cicloviaRepository.findByCidade(cidade);
     }
-    @GetMapping (path="/search/{min}/{max}",produces= MediaType.APPLICATION_JSON_VALUE)//CERTO
+    @GetMapping (path="/extensao/{min}/{max}",produces= MediaType.APPLICATION_JSON_VALUE)//CERTO
     public Iterable<Ciclovia> findByExtensaoBetween(@PathVariable("min") int min,
                                                     @PathVariable("max")int max){
         logger.info("Sending Ciclovias with extensao between" + min + " and "+max);

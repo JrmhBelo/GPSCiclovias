@@ -8,8 +8,8 @@ import javax.persistence.Id;
 
 import javax.persistence.Column;
 import javax.persistence.Table;
-//import javax.persistence.JoinColumn;
-//import javax.persistence.ManyToOne;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 //import javax.persistence.OneToMany;
 
 @Entity 
@@ -21,14 +21,14 @@ public class Ciclovia {
 @Column(name="cic_nome") private String nome;
 @Column(name="cic_extensao")private int extensao;
 @Column(name="cic_inicio") private String inicio;
-/*@Column(name="cic_iniCoord") private String iniCoord;*/
+//@Column(name="cic_iniCoord") private float iniCoord;
 @Column(name="cic_descricao") private String descricao;
 @Column(name="cic_fim") private String fim;
-/*@Column(name="cic_fimCoord") private String fimCoord;*/
+//@Column(name="cic_fimCoord") private float fimCoord;
 @Column(name="cic_distrito") private String distrito;
 @Column(name="cic_cidade") private String cidade;
-/*@ManyToOne@JoinColumn(name="cc_id")
-private CategoriaCiclovia categoriaciclovia;*/
+@ManyToOne@JoinColumn(name="cc_id")
+private CategoriaCiclovia categoriaciclovia;
 /*@OneToMany(mappedBy="pdi")
 private List<CicloviaPontosInteresse> pdi = new ArrayList<>();*/
 
@@ -47,7 +47,7 @@ public Ciclovia() {
     public String getInicio(){
         return inicio;
     }
-    /*public String getIniCoord(){
+    /*public float getIniCoord(){
         return iniCoord;
     }*/
     public String getDescricao(){
@@ -56,7 +56,7 @@ public Ciclovia() {
     public String getFim(){
         return fim;
     }
-    /*public String getFimCoord(){
+    /*public float getFimCoord(){
         return fimCoord;
     }*/
     public String getDistrito(){

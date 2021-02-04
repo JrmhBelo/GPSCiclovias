@@ -18,48 +18,48 @@ import pt.iade.GPSCiclovias_projecto.models.Utilizador;
 import pt.iade.GPSCiclovias_projecto.models.exceptions.NotFoundException;
 import pt.iade.GPSCiclovias_projecto.models.repositories.UtilizadorRepository;
 import pt.iade.GPSCiclovias_projecto.models.results.Response;
-
-
+import pt.iade.GPSCiclovias_projecto.models.views.AtividadeStatsView;
 
 @RestController
-@RequestMapping(path="/api/utilizador")
+@RequestMapping(path = "/api/utilizador")
 public class UtilizadorController {
     private Logger logger = LoggerFactory.getLogger(UtilizadorController.class);
     @Autowired
     private UtilizadorRepository utilizadorRepository;
-    @GetMapping(path = "", produces= MediaType.APPLICATION_JSON_VALUE)
+
+    @GetMapping(path = "", produces = MediaType.APPLICATION_JSON_VALUE)
     public Iterable<Utilizador> getUtilizadores() {
         logger.info("Sending all utilizadores");
         return utilizadorRepository.findAll();
     }
-    @GetMapping(path = "/{id:[1-15]+}",produces= MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(path = "/{id:[1-15]+}", produces = MediaType.APPLICATION_JSON_VALUE)
     public Utilizador getUtilizador(@PathVariable int id) {
-        logger.info("Sending utilizador with id "+id);
-        Optional<Utilizador> _utilizador=utilizadorRepository.findById(id);
-        if (_utilizador.isEmpty()) throw
-            new NotFoundException(""+id,"Utilizador","id");
-        else return _utilizador.get() ;
+        logger.info("Sending utilizador with id " + id);
+        Optional<Utilizador> _utilizador = utilizadorRepository.findById(id);
+        if (_utilizador.isEmpty())
+            throw new NotFoundException("" + id, "Utilizador", "id");
+        else
+            return _utilizador.get();
     }
-    @DeleteMapping (path="/deleteUtilizador/{id:[1-15]+}",produces= MediaType.APPLICATION_JSON_VALUE)
+    @DeleteMapping(path = "/deleteUtilizador/{id:[1-15]+}", produces = MediaType.APPLICATION_JSON_VALUE)
     public Response deleteUtilizador(@PathVariable int id) {
         logger.info("Delete Utilizador with id number" + id);
-        if(utilizadorRepository.deleteById(id))
-            return new Response (id+"was deleted.",null);
-        else return new Response(id+"not found.", null);
+        if (utilizadorRepository.deleteById(id))
+            return new Response(id + "was deleted.", null);
+        else
+            return new Response(id + "not found.", null);
     }
-    /*@DeleteMapping(path = "/{id:[0-9]+}", … )
-    public SimpleResult deleteUnit(@PathVariable int id){
-        logger.info("Deleting unit with id "+id);
-            // No verification to see if it exists
-        unitRepository.deleteById(id);
-        return new SimpleResult("Deleted unit with id "+id+
-            " (if id does not exists nothing was deleted)",
-            null);
-    }*/
-    @PostMapping(path ="",produces= MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(path = "", produces = MediaType.APPLICATION_JSON_VALUE)
     public Utilizador saveUtilizador(@RequestBody Utilizador utilizador) {
         Utilizador savedUtilizador = utilizadorRepository.save(utilizador);
-        logger.info("Saving utilizador with id "+savedUtilizador.getId());
+        logger.info("Saving utilizador with id " + savedUtilizador.getId());
         return savedUtilizador;
     }
+
+    @GetMapping(path = "/atividade", produces = MediaType.APPLICATION_JSON_VALUE)
+    public Iterable<AtividadeStatsView> getAtividadeStats() {
+        logger.info("Sending all Estatisticas dos Utilizadores");
+        return utilizadorRepository.getAtividadeStats();
+    }
 }
+

@@ -1,0 +1,31 @@
+
+   
+   header, main, footer, main section, nav {
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+    color: white;
+ }
+ nav { background-color:green;}
+ header {  background-color: red; }
+ main { 
+    background-color: orange; 
+    display: flex;
+    flex-wrap: wrap;
+  }
+ footer { background-color: magenta; }
+
+ main > section {
+    background-color: blue;
+    width: 18%;
+ }
+
+td, th {
+   text-align: center;
+   padding: 3px;
+   border: 2px solid darkred;
+ }
+
+ th {
+    font-size: 1.5em;
+ }
