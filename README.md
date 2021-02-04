@@ -115,6 +115,20 @@ O utilizar com a opção "Consultar Avaliações" consegue consultar a lista ond
 - Apresenta ao utilizador todas as avaliações que coincidem com a filtragem que fez
 
 
+### Consultar Estatísticas dos utilizadores 
+**Descrição:** \
+O utilizar com a opção "Atividade" consegue consultar a lista onde estão inseridas todas estatatisticas dos utilizadores como ciclovias percorridas, metros percorridos e veiculos utilizados.
+
+**Pré-condições:**
+- Autenticado no sistema
+
+**Passo a passo:**
+1. O utilizador encontra-se no menu inicial.
+2. O utilizador seleciona o menu "Atividade"
+
+**Pós-condições:**
+- Apresenta ao utilizador uma lista de estatisticas dos utilizadores.
+
 ## Referências:
 1 - “Ciclovias Portugal” ciclovia.pt.[Online].Available: http://www.ciclovia.pt/index.html.[Accessed:28-12-2020][Accessed:30-12-2020] \
 2 - “Tipos de Dados no SQL”rlsystem.com.[Online].Available: https://www.rlsystem.com.br/tipos-dados-sql-server/.[Accessed:10-11-2020] \
