@@ -79,7 +79,7 @@ O utilizar com a opção "Pesquisar Ciclovias", consegue fazer a filtragem  da s
 - Apresenta ao utilizador todas as ciclovias que coincidem com a filtragem que fez
 
 
-### Pesquisar Pontos de Interesse
+### Pesquisar Pontos de Interesse (em desenvolvimento)
 **Descrição:** \
 O utilizador, através da opção Pesquisar Pontos de Interesse, consegue pesquiar na lista de pontos de interesse o que considera pertinente visitar durante o trajeto na ciclovia. Quando seleciona o ponto de interesse é lhe apresentado todas as ciclovias à menor distância desse ponto.
 
@@ -95,6 +95,38 @@ O utilizador, através da opção Pesquisar Pontos de Interesse, consegue pesqui
 **Pós-condições:**
 - Apresenta as ciclovias, com base no ponto de interesse selecionado 
 
+### Consultar Avaliações
+**Descrição:** 
+ Esta opção permite ao utilizador consultar a lista onde estão inseridas as avaliações atribuidas pelos utilizadores às ciclovias . \ 
+
+**Pré-condições:**
+- Autenticado no sistema    
+
+**Passo a passo:**
+1.  O utilizador encontra-se no menu inicial.
+2. O utilizador seleciona a opção Consultar Avaliações
+
+**Pós-condições:**
+- É disponibilizada uma lista onde estão contidas todas as avaliações
+
+
+### Pesquisar Avaliações 
+**Descrição:** \
+O utilizar com a opção "Pesquisar Avaliações", consegue fazer a filtragem  da sua pesquisa através do id das ciclovias e do id do utilizador. O utilizador apenas precisa de introduzir o id da ciclovia que pretende saber as respetivas avaliações. No distrito e na cidade apenas é preciso escrever o que deseja e são lhe apresentado todas as ciclovias pertencentes a esses locais.
+
+**Pré-condições:**
+- Autenticado no sistema
+- Consultado Lista de Ciclovias
+
+**Passo a passo:**
+1. O utilizador encontra-se no menu inicial.
+2. O utilizador seleciona o menu "Consultar Lista de Ciclovias"
+3. O utilizador seleciona a opção "Pesquisar Ciclovias"
+4. O utilizador seleciona entre as opções, extensão, distrito e cidade
+5. O utilizador escreve o que pretende procurar
+
+**Pós-condições:**
+- Apresenta ao utilizador todas as ciclovias que coincidem com a filtragem que fez
 
 
 ## Referências:
