@@ -95,38 +95,24 @@ O utilizador, através da opção Pesquisar Pontos de Interesse, consegue pesqui
 **Pós-condições:**
 - Apresenta as ciclovias, com base no ponto de interesse selecionado 
 
-### Consultar Avaliações
-**Descrição:** 
- Esta opção permite ao utilizador consultar a lista onde estão inseridas as avaliações atribuidas pelos utilizadores às ciclovias . \ 
 
-**Pré-condições:**
-- Autenticado no sistema    
-
-**Passo a passo:**
-1.  O utilizador encontra-se no menu inicial.
-2. O utilizador seleciona a opção Consultar Avaliações
-
-**Pós-condições:**
-- É disponibilizada uma lista onde estão contidas todas as avaliações
-
-
-### Pesquisar Avaliações 
+### Pesquisar e Consultar Avaliações 
 **Descrição:** \
-O utilizar com a opção "Pesquisar Avaliações", consegue fazer a filtragem  da sua pesquisa através do id das ciclovias e do id do utilizador. O utilizador apenas precisa de introduzir o id da ciclovia que pretende saber as respetivas avaliações. No distrito e na cidade apenas é preciso escrever o que deseja e são lhe apresentado todas as ciclovias pertencentes a esses locais.
+O utilizar com a opção "Consultar Avaliações" consegue consultar a lista onde estão inseridas todas avaliações atribuidas pelos utilizadores às ciclovias. Com a opção "Pesquisar Avaliações", o utilizador consegue fazer a filtragem  da sua pesquisa através do id das ciclovias e do id dos utilizadoesr. Apenas é preciso escrever o que deseja e são lhe apresentado todas as avaliações pertencentes a esse utilizador ou ciclovia.
 
 **Pré-condições:**
 - Autenticado no sistema
-- Consultado Lista de Ciclovias
+- Consultado Lista de Avaliações
 
 **Passo a passo:**
 1. O utilizador encontra-se no menu inicial.
-2. O utilizador seleciona o menu "Consultar Lista de Ciclovias"
-3. O utilizador seleciona a opção "Pesquisar Ciclovias"
-4. O utilizador seleciona entre as opções, extensão, distrito e cidade
+2. O utilizador seleciona o menu "Consultar Lista de Avaliações"
+3. O utilizador seleciona a opção "Pesquisar Avaliações"
+4. O utilizador seleciona entre as opções, id da ciclovia ou id do utilizador
 5. O utilizador escreve o que pretende procurar
 
 **Pós-condições:**
-- Apresenta ao utilizador todas as ciclovias que coincidem com a filtragem que fez
+- Apresenta ao utilizador todas as avaliações que coincidem com a filtragem que fez
 
 
 ## Referências:
