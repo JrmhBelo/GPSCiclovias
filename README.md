@@ -98,7 +98,7 @@ O utilizador, através da opção Pesquisar Pontos de Interesse, consegue pesqui
 
 ### Pesquisar e Consultar Avaliações 
 **Descrição:** \
-O utilizar com a opção "Consultar Avaliações" consegue consultar a lista onde estão inseridas todas avaliações atribuidas pelos utilizadores às ciclovias. Com a opção "Pesquisar Avaliações", o utilizador consegue fazer a filtragem  da sua pesquisa através do id das ciclovias e do id dos utilizadoesr. Apenas é preciso escrever o que deseja e são lhe apresentado todas as avaliações pertencentes a esse utilizador ou ciclovia.
+O utilizar com a opção "Consultar Avaliações" consegue consultar a lista onde estão inseridas todas avaliações atribuidas pelos utilizadores às ciclovias. Com a opção "Pesquisar Avaliações", o utilizador consegue fazer a filtragem  da sua pesquisa através do id das ciclovias e do id dos utilizadores. Apenas é preciso escrever o que deseja e são lhe apresentado todas as avaliações pertencentes a esse utilizador ou ciclovia.
 
 **Pré-condições:**
 - Autenticado no sistema
