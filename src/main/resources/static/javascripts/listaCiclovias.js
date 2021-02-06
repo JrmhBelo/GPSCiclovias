@@ -25,7 +25,7 @@ async function filtrar() {
         let distrito = document.getElementById("distrito").value;
         let cidade = document.getElementById("cidade").value;
         let ciclovias = await $.ajax({
-            url: "/api/ciclovias/"+distrito+"/"+cidade,
+            url: "/api/ciclovias?distrito="+distrito+"/&cidade="+cidade,
             method: "get",
             dataType: "json"
         });
