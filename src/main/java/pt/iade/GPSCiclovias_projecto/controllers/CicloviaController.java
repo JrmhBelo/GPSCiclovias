@@ -39,7 +39,7 @@ public class CicloviaController {
         logger.info("Sending Ciclovia with distrito "+distrito);
         return cicloviaRepository.findByDistrito(distrito);
     }
-    @GetMapping (path="/{cidade:[^1-15]+}/{cidade:[^1-15]+}",produces= MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping (path="/{distrito:[^1-15]+}/{cidade:[^1-15]+}",produces= MediaType.APPLICATION_JSON_VALUE)
     public Iterable<Ciclovia> getCicloviaCidade(@PathVariable("cidade") String cidade){
         logger.info("Sending Ciclovias with cidade " + cidade);
             return cicloviaRepository.findByCidade(cidade);
